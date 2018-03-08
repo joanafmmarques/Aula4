@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace MyFirstMethod
+namespace MyAula04
 {
-    class Program
+    class MyClass
     {
         static void Main(string[] args)
         {
