@@ -8,31 +8,24 @@ namespace MyAula04
     class MyClass
     {
         /// <summary>
-        /// Method that prints on the screen numbers from 1 to 10
+        /// Method that prints on the screen numbers from n1 to n2
         /// </summary>
         /// <param name="args">The command-line arguments.</param>
         static void Main(string[] args)
         {
             
-            CountTo10();
+            CountToN(3,10);
             
-        }
-        /// <summary>
-        /// Method that uses CountToN() to count to 10
-        /// </summary>
-        static void CountTo10()
-        {
-                CountToN(10);
         }
 
         /// <summary>
-        /// Method that counts to n
+        /// Method that counts from n1 to n2
         /// </summary>
-        /// <param name="n">Var int that will make the cicle for print numbers
-        /// from 1 to n</param>
-        static void CountToN(int n)
+        /// <param name="n1">inicial number to count from</param>
+        /// <param name="n2">final number to count to</param>
+        static void CountToN(int n1, int n2)
         {
-            for (int i = 1; i <= n; i++)
+            for (int i = n1; i <= n2; i++)
             {
                 Console.WriteLine(i);
             }
