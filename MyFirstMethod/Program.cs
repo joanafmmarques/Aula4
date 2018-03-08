@@ -6,20 +6,14 @@ namespace MyAula04
     {
         static void Main(string[] args)
         {
+            
             CountTo10();
-            CountTo10();
-
-            CountToN(15);
-            CountToN(5);
             
         }
 
         static void CountTo10()
         {
-            for (int i = 1; i <= 10; i++)
-            {
-                Console.WriteLine(i);
-            }
+                CountToN(10);
         }
 
         static void CountToN(int n)
